@@ -1,17 +1,17 @@
 pipeline {
     agent any
 stages {
-        stage('sai') {
+        stage('Enviroment') {
             steps {
-                echo 'Hello World'
+                echo 'env'
             }
         }
-stage('babu') {
+stage('Testing') {
             steps {
-                echo 'Hello World'
+                echo 'test'
             }
         }
-stage('testing') {
+stage('QA') {
             steps {
                 echo 'Hello World'
             }
