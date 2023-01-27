@@ -6,7 +6,7 @@ stages {
                 echo 'Hello World'
             }
         }
-stage('production') {
+stage('babu') {
             steps {
                 echo 'Hello World'
             }
